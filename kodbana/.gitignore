@@ -1,0 +1,47 @@
+# Next.js
+.next/
+out/
+node_modules/
+.env
+.env.local
+.env.development
+.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-filer
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Loggar och tillfälligt
+*.log
+*.tmp
+
+# Git
+.git/
+*.orig
+
+# Android / Gradle (om kopplat till mobilprojekt)
+.gradle/
+*.iml
+build/
+android/.gradle/
+android/app/build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: testfiler eller mockdata
+__tests__/
+__mocks__/
+coverage/
